@@ -1,0 +1,8 @@
+{
+  "id": "cassandra-mesos-scheduler",
+  "cmd": "cd /home/jclouds/mesos-devoxx/cassandra-mesos-2.0.5-1/bin/ && ./cassandra-mesos",
+  "cpus": 0.4,
+  "mem": 512,
+  "instances": 1
+
+}
