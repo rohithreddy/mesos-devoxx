@@ -1,0 +1,3 @@
+#!/bin/bash
+
+http POST $MESOS_MASTER:8080 < /root/devoxx/spark-notebook.json
