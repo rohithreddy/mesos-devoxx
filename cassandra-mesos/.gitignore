@@ -1,0 +1,37 @@
+
+# Eclipse
+.classpath
+.project
+.settings/
+.cache
+
+# Intellij
+atlassian-ide-plugin.xml
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# backup files
+*~
+
+# generated log files and rotated logs
+**/cassandra-mesos.log
+**/cassandra-mesos.log*.zip
+**/cassandra-executor.log
+**/cassandra-executor.log*.zip
+**/executor.log
+**/executor.log*.zip
+
+driver-extensions/cluster-loadtest/cassandra.logdir_IS_UNDEFINED/**
+driver-extensions/cluster-loadtest/loadtest-*/**
+
+# Compiled Licenses
+**/licenses/
+**/THIRD-PARTY.txt
