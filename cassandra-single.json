@@ -1,0 +1,15 @@
+{
+  "id": "cassandra-single-2",
+  "cpus": 2,
+  "mem": 4096,
+  "instances": 1,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "spotify/cassandra",
+      "privileged": true
+       }
+   },
+  "constraints" : [["rack-id", "CLUSTER", "cassandra-single-rack-1"]]
+}
+
