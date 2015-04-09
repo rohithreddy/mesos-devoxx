@@ -12,4 +12,3 @@
    },
   "constraints" : [["rack-id", "CLUSTER", "cassandra-single-rack-1"]]
 }
-

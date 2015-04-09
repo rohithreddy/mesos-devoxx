@@ -1,0 +1,5 @@
+1.Cassandra - Mesos  ....
+    configure conf/yaml
+    bin/cassandra-mesos
+    cd ~/mesos-devoxx/cassandra-mesos-2.0.5-1 && bin/cqlsh 10.173.13.218
+    runc queries using cqlsh >  select * from system.schema_keyspaces ;

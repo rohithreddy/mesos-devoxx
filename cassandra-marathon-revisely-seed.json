@@ -1,0 +1,25 @@
+{
+    "id": "yroblacassandra",
+    "instances": 1,
+    "mem": 512,
+    "ports": [7199, 7000, 7001, 9160, 9042, 8012],
+    "requirePorts": true,
+    "container": {
+    "type": "DOCKER",
+    "docker": {
+        "image": "yrobla/cassandra:latest",
+        "network": "BRIDGE",
+        "privileged" : true,
+        "portMappings": [
+            { "containerPort": 7199, "hostPort": 7199, "protocol": "tcp" },
+            { "containerPort": 7000, "hostPort": 7000, "protocol": "tcp" },
+            { "containerPort": 7001, "hostPort": 7001, "protocol": "tcp" },
+            { "containerPort": 9160, "hostPort": 9160, "protocol": "tcp" },
+            { "containerPort": 9042, "hostPort": 9042, "protocol": "tcp" },
+            { "containerPort": 8012, "hostPort": 8012, "protocol": "tcp" }
+              ]
+            }
+      },
+    "env": {}
+
+}
