@@ -8,7 +8,7 @@
     "type": "DOCKER",
     "docker": {
         "image": "yrobla/cassandra:latest",
-        "network": "BRIDGE",
+        "network": "HOST",
         "privileged" : true,
         "portMappings": [
             { "containerPort": 7199, "hostPort": 7199, "protocol": "tcp" },
